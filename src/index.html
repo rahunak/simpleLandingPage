@@ -1,12 +1,127 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <title>Landing page</title>
     <meta charset="utf-8" />
     <meta name="description" content="pet landing Page" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-
   <body>
-   
+    <header>
+      <nav>
+        <a href="">
+          <img
+            src="./components/images/header/home.svg"
+            alt="go to home page"
+          />
+        </a>
+        <a href="#">каталог</a>
+        <a href="#">преимущества</a>
+        <a href="#">примеры работ</a>
+        <a href="#">монтаж</a>
+        <a href="#">отзывы</a>
+        <a href="#">ответы на вопросы</a>
+        <a href="#">контакты</a>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main__nav">
+        <div class="nav__block">
+          <p>Кровельные и фасадные материалы в Тюмени и области.</p>
+          <p>Профессиональный монтаж с 2010 года.</p>
+        </div>
+        <div class="nav__block">
+          <span class="pdf">Pdf</span>
+          <a href="#">Скачать прайс-каталог</a>
+        </div>
+        <div class="nav__block">
+          <img src="./components/images/logo.png" alt="a logo image is link" />
+        </div>
+        <div class="nav__block">
+          <p>отвечаем <b>онлайн</b></p>
+          <div class="contactsIcons">
+            <div class="contactsIcons__viber">
+              <img
+                src="./components/images/icons/viber.svg"
+                alt="send a mail to viber"
+              />
+            </div>
+            <div class="contactsIcons__whatsapp">
+              <img
+                src="./components/images/icons/whatsapp.svg"
+                alt="send a mail to whatsapp"
+              />
+            </div>
+            <div class="contactsIcons__telegram">
+              <img
+                src="./components/images/icons/telegram.svg"
+                alt="send a mail to telegram"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="nav__block">
+          <p><b>Пн-Пт</b> 9:00 - 18:00, <b>Сб</b> 10:00 - 18:00</p>
+          <p><b>8(800) 222-54-60</b></p>
+          <a class="callMe" href="#">Позвоните мне</a>
+        </div>
+      </section>
+      <div class="main__content">
+        <section class="commercial">
+          <div class="commercial__block">
+            <b>Гарантия от 50 лет</b> на материалы и 5 лет на монтаж
+          </div>
+          <div class="commercial__block">
+            <b>Замер, монтажный проект</b> и еще 4 услуги бесплатно
+          </div>
+          <div class="commercial__block"><b>Сметы точны</b> до копейки</div>
+          <div class="commercial__block">
+            <b>Поэтапная оплата,</b> кредит или рассрочка
+          </div>
+          <div class="commercial__block">
+            <b>Наши крыши в каждом поселке</b> и дачном сообществе региона
+          </div>
+        </section>
+        <div class="main__content">
+          <h1 class="content__title">
+            Продажа <b>кровельных материалов</b> в Тюмени и Тюменской области
+          </h1>
+          <p class="subtitle">
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            <span class="circle"></span>
+            и монтаж под ключ
+          </p>
+          <div class="content__buttons">
+            <div class="bigBtn_green">
+              <p class="bigBtn_text">
+                рассчитать стоимость материалов и монтажа
+              </p>
+              <img
+                class="bigBtn_arrow"
+                src="./components/images/arrow.svg"
+                alt=""
+              />
+            </div>
+            <div class="bigBtn_orange">
+              <p class="bigBtn_text">записаться на просмотр объектов</p>
+              <img
+                class="bigBtn_arrow"
+                src="./components/images/arrow.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="content__footer">
+            <img src="./components/images/icons/handClick.svg" alt="" />
+            <p>
+              <b>Ответьте на несколько вопросов и получите</b> сметную стоимость
+              и 3 подарка за экономию нашего времени
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
