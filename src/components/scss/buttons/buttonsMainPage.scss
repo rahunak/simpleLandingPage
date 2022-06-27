@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius:26.042vw;
+  border-radius: 26.042vw;
   color: white;
   font-family: "Montserrat600";
   font-size: 0.72916vw;
@@ -13,39 +13,48 @@
   letter-spacing: 0.02em;
   text-transform: uppercase;
 
-  &:hover{
-    .bigBtn_text{
-    margin-right: 1.5vw;
-    transition:margin-right  400ms ease-in-out;
+  &:hover {
+    .bigBtn_text {
+      margin-right: 1.5vw;
+      transition: margin-right 400ms ease-in-out;
     }
-    
-    
+
     cursor: pointer;
   }
 }
+
 .bigBtn_green {
   @extend %bigBtn;
   background-color: #12c868;
   width: 19.53125vw;
-  &:hover{
-    background-color: #21E27C;
+
+  &:hover {
+    background-color: #21e27c;
   }
-  & > .bigBtn_text{
+
+  &>.bigBtn_text {
     display: block;
     width: 11.09375vw;
     margin-right: 1.614583vw;
   }
 }
+
 .bigBtn_orange {
   @extend %bigBtn;
   background-color: #f38120;
   width: 17.447916vw;
-  &:hover{
-    background-color: #FD9C49;
+
+  &:hover {
+    background-color: #fd9c49;
   }
-  & > .bigBtn_text{
+
+  &>.bigBtn_text {
     display: block;
     width: 9.4vw;
     margin-right: 1.71875vw;
+  }
 }
+.bigBtn_arrow{
+  width: 1.042vw;
+  height:  1.042vw;
 }

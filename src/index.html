@@ -1,137 +1,165 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Landing page</title>
-    <meta charset="utf-8" />
-    <meta name="description" content="pet landing Page" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header">
-        <div class="header__wrapper">
-          <nav class="header__nav">
-            <a href="#" class="nav__link">
-              <img
-                src="./components/images/header/home.svg"
-                alt="go to home page"
-              />
-            </a>
-            <a href="#" class="nav__link">каталог</a>
-            <a href="#" class="nav__link">преимущества</a>
-            <a href="#" class="nav__link">примеры работ</a>
-            <a href="#" class="nav__link">монтаж</a>
-            <a href="#" class="nav__link">отзывы</a>
-            <a href="#" class="nav__link">ответы на вопросы</a>
-            <a href="#" class="nav__link">контакты</a>
-          </nav>
-          <hr class="divideLine" />
+
+<head>
+  <title>Landing page</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="pet landing Page" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__wrapper">
+        <nav class="header__nav">
+          <a href="#" class="nav__link">
+            <img src="./components/images/header/home.svg" alt="go to home page" />
+          </a>
+          <a href="#" class="nav__link">каталог</a>
+          <a href="#" class="nav__link">преимущества</a>
+          <a href="#" class="nav__link">примеры работ</a>
+          <a href="#" class="nav__link">монтаж</a>
+          <a href="#" class="nav__link">отзывы</a>
+          <a href="#" class="nav__link">ответы на вопросы</a>
+          <a href="#" class="nav__link">контакты</a>
+        </nav>
+        <hr class="divideLine" />
+      </div>
+
+      <div class="burger__menu">
+        <div class="nav__block burger__menu__block_img"></div>
+        <div class="nav__block burger__menu__block_workTime">
+          <p class="workTime_time"><b>Пн-Пт</b> 9:00 - 18:00, <b>Сб</b> 10:00 - 18:00</p>
+          <p class="workTime__phoneNumber">8(800) 222-54-60</p>
+          <a class="callMe" href="tel:88002225460">Позвоните мне</a>
         </div>
-      </header>
-      <main class="main">
-        <div class="main__wrapper">
-          <section class="main__nav">
-            <div class="nav__block main__nav_description">
-              <p class="nav__description_title"><b>Кровельные и фасадные материалы</b> в Тюмени и области.</p>
-              <p class="nav__description_subtitle">Профессиональный монтаж с 2010 года.</p>
-            </div>
-            <div class="nav__block main__nav_price">
-              <span class="pdf">Pdf</span>
-              <a class="link_downloadPrice" href="#">Скачать прайс-каталог</a>
-            </div>
-            <div class="nav__block nav__block_img"></div>
-            <div class="nav__block contactsIcons">
-              <p class="contactsIcons__title"> <span class="dot"></span> Отвечаем <b>онлайн</b></p>
-              <div class="contactsIcons__icons">
-                <div class="contactsIcons__icon_viber contactsIcons__icon">
-                  <img
-                    src="./components/images/icons/viber.svg"
-                    alt="send a mail to viber"
-                  />
-                </div>
-                <div class="contactsIcons__icon_whatsapp contactsIcons__icon">
-                  <img
-                    src="./components/images/icons/whatsapp.svg"
-                    alt="send a mail to whatsapp"
-                  />
-                </div>
-                <div class="contactsIcons__icon_telegram contactsIcons__icon">
-                  <img
-                    src="./components/images/icons/telegram.svg"
-                    alt="send a mail to telegram"
-                  />
-                </div>
+        <div class="burger__button">
+          <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="burger__btn" for="menu__toggle">
+              <span></span>
+            </label>
+
+            <ul class="menu__box">
+              <li><a class="menu__item" href="#"><img src="./components/images/header/home.svg"></a></li>
+              <li><a class="menu__item" href="#">каталог</a></li>
+              <li><a class="menu__item" href="#">преимущества</a></li>
+              <li><a class="menu__item" href="#">преимущества</a></li>
+              <li><a class="menu__item" href="#">примеры работ</a></li>
+              <li><a class="menu__item" href="#">монтаж</a></li>
+              <li><a class="menu__item" href="#">отзывы</a></li>
+              <li><a class="menu__item" href="#">ответы на вопросы</a></li>
+              <li><a class="menu__item" href="#">контакты</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </header>
+
+
+
+    <main class="main">
+      <div class="main__wrapper">
+        <section class="main__nav">
+          <div class="nav__block main__nav_description">
+            <p class="nav__description_title"><b>Кровельные и фасадные материалы</b> в Тюмени и области.</p>
+            <p class="nav__description_subtitle">Профессиональный монтаж с 2010 года.</p>
+          </div>
+          <div class="nav__block main__nav_price">
+            <span class="pdf">Pdf</span>
+            <a class="link_downloadPrice" href="#">Скачать прайс-каталог</a>
+          </div>
+          <div class="nav__block nav__block_img"></div>
+          <div class="nav__block contactsIcons">
+            <p class="contactsIcons__title"> <span class="dot"></span> Отвечаем <b>онлайн</b></p>
+            <div class="contactsIcons__icons">
+              <div class="contactsIcons__icon_viber contactsIcons__icon">
+                <img src="./components/images/icons/viber.svg" alt="send a mail to viber" />
+              </div>
+              <div class="contactsIcons__icon_whatsapp contactsIcons__icon">
+                <img src="./components/images/icons/whatsapp.svg" alt="send a mail to whatsapp" />
+              </div>
+              <div class="contactsIcons__icon_telegram contactsIcons__icon">
+                <img src="./components/images/icons/telegram.svg" alt="send a mail to telegram" />
               </div>
             </div>
-            <div class="nav__block nav__block_workTime">
-              <p class="nav__block workTime_time"><b>Пн-Пт</b> 9:00 - 18:00, <b>Сб</b> 10:00 - 18:00</p>
-              <p class="workTime__phoneNumber">8(800) 222-54-60</p>
-              <a class="callMe" href="tel:88002225460">Позвоните мне</a>
+          </div>
+          <div class="nav__block nav__block_workTime">
+            <p class="nav__block workTime_time"><b>Пн-Пт</b> 9:00 - 18:00, <b>Сб</b> 10:00 - 18:00</p>
+            <p class="workTime__phoneNumber">8(800) 222-54-60</p>
+            <a class="callMe" href="tel:88002225460">Позвоните мне</a>
+          </div>
+        </section>
+
+        <div class="main__content">
+          <section class="commercial">
+            <div class="commercial__block">
+              <b>Гарантия от 50 лет</b> на материалы и 5 лет на монтаж
+            </div>
+            <div class="commercial__block">
+              <b>Замер, монтажный проект</b> и еще 4 услуги бесплатно
+            </div>
+            <div class="commercial__block"><b>Сметы точны</b> до копейки</div>
+            <div class="commercial__block">
+              <b>Поэтапная оплата,</b> кредит или рассрочка
+            </div>
+            <div class="commercial__block">
+              <b>Наши крыши в каждом поселке</b> и дачном сообществе региона
             </div>
           </section>
-          
-          <div class="main__content">
-            <section class="commercial">
-              <div class="commercial__block">
-                <b>Гарантия от 50 лет</b> на материалы и 5 лет на монтаж
-              </div>
-              <div class="commercial__block">
-                <b>Замер, монтажный проект</b> и еще 4 услуги бесплатно
-              </div>
-              <div class="commercial__block"><b>Сметы точны</b> до копейки</div>
-              <div class="commercial__block">
-                <b>Поэтапная оплата,</b> кредит или рассрочка
-              </div>
-              <div class="commercial__block">
-                <b>Наши крыши в каждом поселке</b> и дачном сообществе региона
-              </div>
-            </section>
-            <div class="main__info">
-              <h1 class="content__title">
-                Продажа <b>кровельных материалов</b> в Тюмени и Тюменской
-                области
-              </h1>
-              <div class="content__subtitle">
-                <div class="circles">
+          <div class="main__info">
+            <h1 class="content__title">
+              Продажа <b>кровельных материалов</b> в Тюмени и Тюменской
+              области
+            </h1>
+            <div class="content__subtitle">
+              <div class="circles">
                 <span class="circle_green_0"></span>
                 <span class="circle_green_1"></span>
                 <span class="circle_green_2"></span>
                 <span class="circle_green_3"></span>
-                </div>
-                и монтаж под ключ
               </div>
-              <div class="content__buttons">
-                <div class="bigBtn_green">
-                  <p class="bigBtn_text">
-                    рассчитать стоимость материалов и монтажа
-                  </p>
-                  <img
-                    class="bigBtn_arrow"
-                    src="./components/images/arrow.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="bigBtn_orange">
-                  <p class="bigBtn_text">записаться на просмотр объектов</p>
-                  <img
-                    class="bigBtn_arrow"
-                    src="./components/images/arrow.svg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="content__footer">
-                <img src="./components/images/icons/handClick.svg" alt="" />
-                <p class="content__footer_text">
-                  <b>Ответьте на несколько вопросов и получите</b> сметную
-                  стоимость и 3 подарка за экономию нашего времени
+              и монтаж под ключ
+            </div>
+            <div class="content__buttons">
+              <div class="bigBtn bigBtn_green">
+                <p class="bigBtn_text">
+                  рассчитать стоимость материалов и монтажа
                 </p>
+                <img class="bigBtn_arrow" src="./components/images/arrow.svg" alt="" />
+              </div>
+              <div class="bigBtn bigBtn_orange">
+                <p class="bigBtn_text">записаться на просмотр объектов</p>
+                <img class="bigBtn_arrow" src="./components/images/arrow.svg" alt="" />
+              </div>
+            </div>
+            <div class="content__footer">
+              <img  class="content__footer_img"src="./components/images/icons/handClick.svg" alt="" />
+              <p class="content__footer_text">
+                <b>Ответьте на несколько вопросов и получите</b> сметную
+                стоимость и 3 подарка за экономию нашего времени
+              </p>
+            </div>
+            <div class="mobile__footer">
+              <div class="mobile__content">
+                <div class="mobile__footer_title"><b>Гарантия от 50</b> летна материалы и 5
+                  лет на монтаж</div>
+                <div class="mobile__footer_subtitle">Нажмите на плюсик, чтобы увидеть
+                  все преимущества работы с нами</div>
+              </div>
+
+              <div class="mobile__footer_btn">
+                <img src="./components/images/icons/+.svg" alt="add">
               </div>
             </div>
           </div>
         </div>
-      </main>
-    </div>
-    <!-- <div id="trapezium"></div> -->
-  </body>
+      </div>
+    </main>
+  </div>
+  <!-- <div id="trapezium"></div> -->
+</body>
+
 </html>

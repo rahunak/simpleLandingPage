@@ -1,10 +1,11 @@
+
 .main {
- 
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .main__wrapper {
+
   width: 80vw;
 }
 .main__nav {
@@ -180,6 +181,13 @@
 .commercial__block {
   max-width: 8.5416vw;
   text-align: center;
+  &:not(&:first-child){
+  
+   background-image: url(../images/menu_shadow.png);
+  
+   background-position: 0 0;
+  }
+ 
 }
 
 .content__title {
@@ -237,12 +245,17 @@
 .content__buttons {
   margin-top: 2.34375vw;
   display: flex;
+  column-gap: 0.9375vw;
 }
 .content__footer {
   margin-top: 1.9792vw;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+.content__footer_img{
+  width: 1.042vw;
+  height: 0.9375vw;
 }
 .content__footer_text {
   width: 12.1875vw;
