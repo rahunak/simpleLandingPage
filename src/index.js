@@ -12,3 +12,4 @@ import './components/scss/footer/footerInfo.scss';
 import './components/scss/media.scss';
 // scripts
 import './components/scripts/burger';
+import './components/scripts/footer';

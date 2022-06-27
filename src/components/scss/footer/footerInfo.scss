@@ -1,19 +1,58 @@
-.mobile__footer{
+.mobile__footer {
 	position: absolute;
 	height: 626.5px;
 	width: 225px;
+	top: 516px;
 }
-.info__toggle{
+
+.mobile__footer_item {
+	&>b {
+		font-family: Montserrat700;
+		font-size: 10px;
+		line-height: 15px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+
+	font-family: Montserrat400;
+	font-size: 10px;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+
+.mobile__footer_subtitle {
+	font-family: Montserrat400;
+	font-size: 6px;
+	line-height: 8px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #B5B5B5;
+}
+
+.info__toggle {
 	position: absolute;
 	opacity: 0;
 }
-.mobile__footer_btn{
+
+.mobile__footer_btn {
 	order: 1;
 }
-#info__toggle:checked + .mobile__footer_btn > .info__img {
+
+#info__toggle:checked+.mobile__footer_btn>.info__img {
 	transition: 400ms;
 	transform: scale(1.5) rotate(45deg);
-  }
-  #info__toggle:checked ~ .mobile__content {
-	background-color: red;
-  }
+}
+
+#info__toggle:checked~.mobile__content .mobile__footer_subtitle {
+	visibility: hidden;
+}
+
+.toogleUp {
+	top: -516px;
+}
+
+.toogleDown {
+	top: 516px;
+}
