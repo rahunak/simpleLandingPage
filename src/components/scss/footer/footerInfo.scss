@@ -1,0 +1,19 @@
+.mobile__footer{
+	position: absolute;
+	height: 626.5px;
+	width: 225px;
+}
+.info__toggle{
+	position: absolute;
+	opacity: 0;
+}
+.mobile__footer_btn{
+	order: 1;
+}
+#info__toggle:checked + .mobile__footer_btn > .info__img {
+	transition: 400ms;
+	transform: scale(1.5) rotate(45deg);
+  }
+  #info__toggle:checked ~ .mobile__content {
+	background-color: red;
+  }
